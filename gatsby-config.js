@@ -18,6 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        private_key: 'SOME_VERY_PRIVATE_KEY',
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
